@@ -1,0 +1,164 @@
+html,
+body {
+  background-color: #202124;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  background-color: none;
+  height: 60px;
+}
+
+.navigation-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar-left {
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav-links-left a {
+  padding: 0 15px;
+}
+
+.nav-links-left a:hover {
+  text-decoration: underline 1px solid white;
+  cursor: pointer;
+}
+
+.nav-links-right a {
+  padding: 0 15px;
+}
+
+.nav-links-right a:hover {
+  text-decoration: underline 1px solid white;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.navigation-bar i {
+  color: white;
+  padding: 0 15px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 0fr 2fr;
+  place-items: center;
+  height: 80vh;
+}
+
+.main-content h1 {
+  font-size: 100px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.main-content p,
+h1 {
+  color: white;
+}
+
+.search i {
+  position: absolute;
+  padding: 10px;
+  color: white;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.search input {
+  position: relative;
+  width: 40vw;
+  background: transparent;
+  border: 0.5px solid white;
+  height: 45px;
+  border-radius: 40px;
+}
+
+.buttons {
+  place-self: stretch center;
+}
+
+button {
+  background-color: #303134;
+  border: none;
+  height: 40px;
+  width: 140px;
+  border-radius: 5px;
+  color: white;
+  margin: 5px;
+}
+
+button:hover {
+  border: 0.5px solid white;
+  cursor: pointer;
+}
+
+.highlight-message {
+  place-self: stretch center;
+  font-size: 14px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  background-color: #171717;
+  align-items: center;
+}
+
+.left-links {
+  padding-left: 30px;
+}
+
+.right-links {
+  padding-right: 30px;
+}
+
+.left-links a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.left-links a:hover {
+  text-decoration: underline 1px solid white;
+  cursor: pointer;
+}
+
+.right-links a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.right-links a:hover {
+  text-decoration: underline 1px solid white;
+  cursor: pointer;
+}
+
+span {
+  color: white;
+  font-size: 15px;
+  margin-right: 100px;
+}
